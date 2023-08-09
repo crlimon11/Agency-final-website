@@ -1,0 +1,33 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+/* Bar Related styles */
+.navbar{
+    background: #dc3545;
+}
+.navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler i{
+    color: #4756DF;
+} 
+/* ul related styls */
+.navbar .navbar-nav{
+    align-items: center;
+}
+.navbar .d-flex{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+}
+

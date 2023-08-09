@@ -6,52 +6,86 @@
     <title>Agenc</title>
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Wesome link -->
+    <script src="https://kit.fontawesome.com/41a47660d6.js" crossorigin="anonymous"></script>
+    <!-- Slick Css link -->
+    <link rel="stylesheet" href="./css/slick.css">
     <!-- css link -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive link -->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
+  <header>
     <!-- NabBar Start -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" alt="logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>          
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+                                                                
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="primay_btn" type="submit">Contact</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <!-- NabBar End -->
+    <!-- Bannar Part start Here -->
+    <section id="bannar_part">
+      <div class="main_slider">
+        <div class="slider_one">
+        </div>
+        <div class="slider_two">
+        </div>
+        <div class="slider_three">
+        </div>
+        <div class="slider_four">
+        </div>
+    </div>
+    <div class="overlay">
+      <div class="container">
+        <div class="overlay_content">
+          <h1>We Help brands with high quality services</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+          <div class="overlay_btn">
+            <button class="primay_btn" type="submit">Get Started</button>
           </div>
         </div>
-      </nav>
-    <!-- NabBar End -->
+      </div>
+    </div>
+    </section>
+    
+  </header>
+    
 
 
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
+
+  <script src="./js/code.jquery.com_jquery-1.12.4.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
