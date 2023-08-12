@@ -1,7 +1,8 @@
 @media (min-width: 320px) and (max-width: 575.98px) { 
 /* Bar Related styles */
 .navbar{
-    background: #dc3545;
+    background: rgba(0, 0, 0, 0.625);
+    top: 0px;
 }
 .navbar-toggler{
     border: 0;
@@ -19,15 +20,226 @@
 .navbar .d-flex{
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
+/* =======Bannar Part Related Styls */
+#bannar_part {
+	margin-bottom: 75px;
 }
+#bannar_part .overlay .overlay_content h1 {
+	font-size: 50px;
+	line-height: 105%;
+	width: auto;
+}
+#bannar_part .overlay .overlay_content p {
+	width: auto;
+	padding: 25px 0px 20px 0px;
+}
+#bannar_part .overlay {
+	align-items: start;
+}
+#bannar_part .overlay .overlay_content h1 {
+	padding-top: 120px;
+}
+.slider_one{
+    height: 700px;
+}
+.slider_two{
+    height: 700px;
+}
+.slider_three{
+    height: 700px;
+}
+.slider_four{
+    height: 700px;
+}
+.main_slider ul {
+	bottom: 50px;
+}
+/* ====================Success part related ===================================*/
+#success_part{
+    margin-bottom: 75px;
+}
+#success_part .container{
+    border-radius: 20px;
+    background: #E0FFF9;
+    padding: 85px 25px 85px 38px;
+}
+#success_part h3 {
+	font-size: 26px;
+	width: auto;
+	text-align: center;
+}
+#success_part h4 {
+	font-size: 20px;
+	text-align: center;
+}
+#success_part .main_box {
+	flex-direction: column;
+	text-align: center;
+	margin-top: 25px;
+}
+#success_part .main_box .box h2 {
+	font-size: 45px;
+}
+#success_part .container {
+	padding: 60px 25px 15px 38px;
+}
+/* =======================Service Part related styles============== */
+#services_part .description {
+	width: auto;
+}
+#services_part .container {
+	margin-top: 20px;
+}
+#services_part .services_box {
+	padding: 50px 15px 5px;
+}
+#services_part .services_box h2 {
+	margin: 25px 0 5px;
+}
+/* ============================== Recent Work Part Related Styles ============*/
+#recent_work_part .description {
+	width: auto;
+	padding-top: 5px;
+}
+#recent_work_part .title {
+	padding-top: 60px;
+}
+#recent_work_part .container .main_box {
+	padding: 50px 0 40px;
+}
+#recent_work_part .main_box .box p {
+	width: auto;
+}
+#recent_work_part {
+	margin-bottom: 60px;
+}
+/* ================================== Agenc Part Related Styles================ */
+#agenc_part .title {
+	width: auto;
+}
+.title {
+	font-size: 35px;
+	padding: 0 10px 0;
+}
+.description{
+    width: auto;
+    padding: 0px 15px;
+}
+#agenc_part .description {
+	width: auto;
+}
+#agenc_part .container .main_box {
+    margin-top: 10px;
+}
+#agenc_part .container .main_box .top p {
+	width: auto;
+}
+#agenc_part .container .main_box .top {
+	margin-top: 10px;
+    text-align: center;
+}
+#agenc_part .container .main_box .top_gap {
+	margin-top: 10px;
+}
+#agenc_part .col-lg-4:nth-child(1){
+    order: calc(1);
+}
+#agenc_part .col-lg-4:nth-child(2){
+    order: calc(3);
+}
+#agenc_part .col-lg-4:nth-child(3){
+    order: calc(2);
+}
+#agenc_part{
+    margin-bottom: 30px;
+}
+/* ===========================client part rlated ltyles============= */
+#client_part .card_main_slider .slider p {
+	width: auto;
+	text-align: center;
+}
+#client_part .card_main_slider .slider {
+	padding: 20px 28px;
+	height: 345px;
+}
+#client_part .description {
+	width: auto;
+}
+#client_part .card_main_slider .slider .card_footer {
+	margin-top: 10px;
+}
+#client_part .card_main_slider .slider p {
+	margin: 5px 0px;
+}
+#client_part {
+	margin-bottom: 70px;
+}
+#client_part .card_main_slider .left {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	left: 45%;
+	top: 106%;
+}
+#client_part .card_main_slider .right {
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	top: 106%;
+	right: 44%;
+}
+/* ===============================Development part Related Styles============ */
+#development .content_part h2 {
+	width: auto;
+	font-size: 30px;
+	text-align: center;
+}
+#development .content_part p {
+	width: auto;
+	line-height: 20px;
+	text-align: center;
+	padding: 0px 15px;
+}
+#development {
+	padding: 50px 0px;
+}
+#development .form_part {
+	width: auto;
+	height: auto;
+	border-radius: 15px;
+	padding: 40px 20px;
+}
+#development .form_part input {
+	padding: 10px 0px 10px 13px;
+	border-radius: 5px;
+	margin: 5px 0px 10px 0px;
+}
+#development .form_part button {
+	padding: 10px 0px;
+	border-radius: 5px;
+}
+/* Footer Related Styles */
+footer .content_part {
+	text-align: center;
+}
+footer .container .content_part p {
+	width: auto;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+footer .container .row .col-lg-8 .row{
+	text-align: center;
+	margin-top: 20px;
+}
+footer .container .row .col-lg-8 .row li{
+	line-height: 30px;
+}
+footer .footer_text {
+	padding: 12px 0px;
+	margin-top: 17px;
+	text-align: center;
+}
+}
+/* ======================================MEDIUM DEVICE============================ */
+
 
