@@ -355,6 +355,8 @@ width: 387px;
     border-radius: 20px;
     background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
 }
+
+
 /* ========================================== Client Part Related Styles ===========*/
 #client_part{
     margin-bottom: 227px;
